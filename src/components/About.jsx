@@ -78,7 +78,9 @@ const About = () => {
                 <div>
                   <h4 className="font-semibold text-gray-800 dark:text-white mb-2">Experience</h4>
                   <p className="text-gray-600 dark:text-gray-300">
+                    
                     6+ Months of Fullstack Development<br />
+                    Intern at kraftechnologies<br />
                   </p>
                 </div>
               </div>
