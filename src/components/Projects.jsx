@@ -101,15 +101,15 @@ const Projects = () => {
       }
     };
   }, []);
-
+// add your projects
   const projects = [
     {
-      title: 'E-commerce Dashboard',
-      description: 'A responsive admin dashboard with dark mode, charts, and data tables.',
-      technologies: ['React', 'Tailwind CSS', 'Chart.js', 'Context API'],
-      image: 'project1.jpg',
-      link: 'https://example.com/demo1',
-      github: 'https://github.com/yourusername/project1',
+      title: 'Recipe Chatbot',
+      description: 'A generative AI-powered recipe chatbot using GEN AIs and React, integrating RESTAPIs with Node.js.',
+      technologies: ['React', 'Rest APIs', 'MERN', 'Gen AI'],
+      image: 'vite.svg',
+      link: 'https://masterchefrecipesbot-1.onrender.com/',
+      github: 'https://github.com/Suhasygowda',
     },
     {
       title: 'Task Management App',
@@ -126,14 +126,6 @@ const Projects = () => {
       image: 'project3.jpg',
       link: 'https://example.com/demo3',
       github: 'https://github.com/yourusername/project3',
-    },
-    {
-      title: 'Social Media Platform',
-      description: 'A social network with real-time chat, post sharing, and user profiles.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
-      image: 'project4.jpg',
-      link: 'https://example.com/demo4',
-      github: 'https://github.com/yourusername/project4',
     },
   ];
 
@@ -166,7 +158,7 @@ const Projects = () => {
         
         <div className="text-center mt-12">
           <a 
-            href="https://github.com/yourusername" 
+            href="https://github.com/Suhasygowda" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"

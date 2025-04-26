@@ -38,16 +38,16 @@ const Footer = () => {
                 <h3 className="font-semibold text-gray-800 dark:text-white mb-3">Connect</h3>
                 <ul className="space-y-2">
                   <li>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">GitHub</a>
+                    <a href="https://github.com/Suhasygowda" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">GitHub</a>
                   </li>
                   <li>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/suhas-y-gowda-543a36275/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">LinkedIn</a>
                   </li>
                   <li>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Twitter</a>
                   </li>
                   <li>
-                    <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Dribbble</a>
+                    <a href="https://dribbble.com/suhasygowda" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Dribbble</a>
                   </li>
                 </ul>
               </div>
@@ -56,10 +56,10 @@ const Footer = () => {
           
           <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8 text-center">
             <p className="text-gray-600 dark:text-gray-400">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Suhas Y Gowda. All rights reserved.
             </p>
             <p className="text-gray-500 dark:text-gray-500 text-sm mt-2">
-              Designed and built with ❤️ using React, Vite, and Tailwind CSS
+              Designed and built with  using React, Vite, and Tailwind CSS
             </p>
           </div>
         </div>

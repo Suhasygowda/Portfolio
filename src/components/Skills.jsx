@@ -79,8 +79,8 @@ const Skills = () => {
   const frontendSkills = [
     { skill: 'React', level: 90, color: 'bg-blue-600' },
     { skill: 'JavaScript', level: 85, color: 'bg-yellow-500' },
-    { skill: 'TypeScript', level: 80, color: 'bg-blue-500' },
-    { skill: 'HTML & CSS', level: 95, color: 'bg-orange-500' },
+    { skill: 'Node & Express', level: 80, color: 'bg-blue-500' },
+    { skill: 'Gen AI', level: 95, color: 'bg-orange-500' },
   ];
 
   const toolsSkills = [
@@ -106,7 +106,7 @@ const Skills = () => {
         >
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white">Frontend Development</h3>
+              <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white">Fullstack Development</h3>
               {frontendSkills.map((skill) => (
                 <SkillBar 
                   key={skill.skill} 
@@ -132,7 +132,7 @@ const Skills = () => {
           <div className="mt-10">
             <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white">Other Skills</h3>
             <div className="flex flex-wrap gap-3">
-              {['Redux', 'Next.js', 'SASS', 'Jest', 'GraphQL', 'Node.js', 'Express', 'MongoDB', 'RESTful APIs', 'Responsive Design', 'UI/UX', 'Performance Optimization'].map((skill) => (
+              {[ 'Next.js','MongoDB', 'RESTful APIs', 'Responsive Design', 'UI/UX', 'Performance Optimization'].map((skill) => (
                 <span 
                   key={skill} 
                   className="px-4 py-2 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-full text-sm font-medium"

@@ -61,7 +61,7 @@ const About = () => {
             
             <div className="md:w-2/3">
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                I'm a passionate Frontend Developer with a strong foundation in React, TypeScript, and modern CSS frameworks. My journey in web development began 5 years ago, and I've been crafting engaging digital experiences ever since.
+                I'm a passionate Fullstack Developer with a strong foundation in React, TypeScript, and modern CSS frameworks. My journey in web development began 1 years ago, and I've been crafting engaging digital experiences ever since.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
                 I specialize in building responsive, accessible, and performant web applications with clean and maintainable code. I'm always exploring new technologies and methodologies to enhance my skillset and deliver better solutions.
@@ -71,26 +71,25 @@ const About = () => {
                 <div>
                   <h4 className="font-semibold text-gray-800 dark:text-white mb-2">Education</h4>
                   <p className="text-gray-600 dark:text-gray-300">
-                    B.S. Computer Science<br />
-                    University Name, 20XX - 20XX
+                    B.E. Computer Science<br />
+                    Global Academy Of technology, 2022 - 2026
                   </p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 dark:text-white mb-2">Experience</h4>
                   <p className="text-gray-600 dark:text-gray-300">
-                    5+ Years of Frontend Development<br />
-                    3+ Years of React Experience
+                    6+ Months of Fullstack Development<br />
                   </p>
                 </div>
               </div>
               
               <div className="mt-6">
                 <a 
-                  href="/resume.pdf" 
+                  href="https://drive.google.com/file/d/13VJCtOEInBODPI-uSnSzr2zjQ2nrEhOw/view?usp=sharing" 
                   className="inline-flex items-center text-indigo-600 dark:text-indigo-400 hover:underline"
                 >
                   <span>Download Resume</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg xmlns="https://drive.google.com/file/d/13VJCtOEInBODPI-uSnSzr2zjQ2nrEhOw/view?usp=sharing" className="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                   </svg>
                 </a>
